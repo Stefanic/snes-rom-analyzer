@@ -1,0 +1,92 @@
+#
+# configfile version (do NOT edit)
+#
+version=208
+#
+# create backups of files? (1=yes; 0=no)
+# before processing a ROM uCON64 will make a backup of it
+#
+backups=1
+#
+# use ANSI colors in output? (1=yes; 0=no)
+#
+ansi_color=1
+#
+# parallel port
+#
+parport=378
+#
+# complete path to the discmage library for DISC image support
+#
+discmage_path=C:/Users/Stefan Nicodem/IdeaProjects/SNES Rom Analyzer/ucon64/discmage.dll
+#
+# directory with additional config files
+#
+ucon64_configdir=C:/Users/Stefan Nicodem/IdeaProjects/SNES Rom Analyzer/ucon64/
+#
+# directory with DAT files
+#
+ucon64_datdir=C:/Users/Stefan Nicodem/IdeaProjects/SNES Rom Analyzer/ucon64/
+#
+# F2A support files
+# path to F2A USB firmware
+#
+f2afirmware=f2afirm.hex
+#
+# path to GBA client binary (for USB code)
+#
+iclientu=iclientu.bin
+#
+# path to GBA client binary (for parallel port code)
+#
+iclientp=iclientp.bin
+#
+# path to iLinker logo file
+#
+ilogo=ilogo.bin
+#
+# path to GBA multi-game loader
+#
+gbaloader=loader.bin
+#
+# path to GBA multi-game loader (Super Card)
+#
+gbaloader_sc=sc_menu.bin
+#
+# emulate_<console shortcut>=<emulator with options>
+# 
+# You can also use CRC32 values for ROM specific emulation options:
+# 
+# emulate_0x<crc32>=<emulator with options>
+# emulate_<crc32>=<emulator with options>
+#
+emulate_3do=
+emulate_ata=
+emulate_cd32=
+emulate_cdi=
+emulate_coleco=
+emulate_dc=
+emulate_gb=vgb -sound -sync 50 -sgb -scale 2
+emulate_gba=vgba -scale 2 -uperiod 6
+emulate_gc=
+emulate_gen=dgen -f -S 2
+emulate_intelli=
+emulate_jag=
+emulate_lynx=
+emulate_arcade=
+emulate_n64=
+emulate_nes=tuxnes -E2 -rx11 -v -s/dev/dsp -R44100
+emulate_ng=
+emulate_ngp=
+emulate_pce=
+emulate_ps2=
+emulate_psx=pcsx
+emulate_s16=
+emulate_sat=
+emulate_sms=
+emulate_gg=
+emulate_snes=snes9x -tr -sc -hires -dfr -r 7 -is -joymap1 2 3 5 0 4 7 6 1
+emulate_swan=
+emulate_vboy=
+emulate_vec=
+emulate_xbox=
